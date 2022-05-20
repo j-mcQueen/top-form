@@ -1,0 +1,23 @@
+:root {
+    --fineprint: 14px;
+    font-size: 10px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: rgb(37, 37, 37);
+}
+
+p {
+    font-size: var(--fineprint);
+}
+
+.image {
+    background-image: url("/media/mathias-reding-6FGyKAJwtRc-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
