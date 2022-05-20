@@ -20,6 +20,15 @@ p {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(74, 204, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .image {
     background-image: url("/media/mathias-reding-6FGyKAJwtRc-unsplash.jpg");
     background-size: cover;
