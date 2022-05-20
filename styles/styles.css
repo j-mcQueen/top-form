@@ -1,5 +1,7 @@
 :root {
-    --fineprint: 14px;
+    --fineprint: 12px;
+    --text: "Noto Serif", serif;
+    --text-color: white;
     font-size: 10px;
 }
 
@@ -12,7 +14,10 @@ body {
 }
 
 p {
+    font-family: var(--text);
     font-size: var(--fineprint);
+    color: var(--text-color);
+    text-align: center;
 }
 
 .image {
