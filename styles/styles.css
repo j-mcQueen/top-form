@@ -1,8 +1,9 @@
 :root {
     --fineprint: 12px;
     --text: "Noto Serif", serif;
-    --text-color: white;
+    --baseline-color: white;
     font-size: 10px;
+    font-family: var(--text);
 }
 
 body {
@@ -13,10 +14,16 @@ body {
     background-color: rgb(37, 37, 37);
 }
 
+h1 {
+    font-family: var(--text);
+    color: var(--baseline-color);
+    text-align: center;
+}
+
 p {
     font-family: var(--text);
     font-size: var(--fineprint);
-    color: var(--text-color);
+    color: var(--baseline-color);
     text-align: center;
 }
 
