@@ -14,7 +14,7 @@ body {
     background-color: rgb(37, 37, 37);
 }
 
-h1 {
+h1, h2 {
     font-family: var(--text);
     color: var(--baseline-color);
     text-align: center;
@@ -33,6 +33,7 @@ a {
 }
 
 a:hover {
+    cursor: pointer;
     text-decoration: underline;
 }
 
@@ -41,4 +42,13 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
 }
