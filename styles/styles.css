@@ -14,6 +14,16 @@ body {
     background-color: rgb(37, 37, 37);
 }
 
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 18px;
+}
+
 h1, h2 {
     font-family: var(--text);
     color: var(--baseline-color);
@@ -50,5 +60,18 @@ a:hover {
     width: 100%;
     top: 45%;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px 0;
+    padding: 10px 0;
+}
+
+svg {
+    width: 10%;
+}
+
+svg a {
+    transition: 0.3s ease;
+}
+
+svg a:hover {
+    transition: 0.3s ease;
+    opacity: 0.8;
 }
