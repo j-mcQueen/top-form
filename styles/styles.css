@@ -77,13 +77,14 @@ svg a:hover {
 }
 
 .form-cntr {
-    box-shadow: 0 0 4px 2px rgb(19, 19, 19) inset;
+    box-shadow: 0 0 5px 3px rgb(30, 30, 30) inset;
     padding: 10%;
 }
 
 fieldset {
     display: flex;
     border: none;
+    margin: 10px 0;
 }
 
 fieldset div {
@@ -92,10 +93,14 @@ fieldset div {
 
 label {
     display: block;
+    font-size: var(--fineprint);
     color: var(--baseline-color);
+    font-weight: 700;
     padding-bottom: 3px;
+    letter-spacing: -1px;
 }
 
 input {
     width: 200px;
+    height: 20px;
 }
