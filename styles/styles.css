@@ -117,6 +117,11 @@ input {
     height: 23px;
 }
 
+input:focus {
+    outline: none;
+    border: 1px solid rgb(74, 204, 255) 
+}
+
 input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
     font-size: 1.4rem;
     color: var(--baseline-color);
