@@ -1,6 +1,7 @@
 :root {
     --fineprint: 12px;
     --text: "Noto Serif", serif;
+    --text-spacing: -1px;
     --baseline-color: white;
     font-size: 10px;
     font-family: var(--text);
@@ -103,10 +104,28 @@ label {
     color: var(--baseline-color);
     font-weight: 700;
     padding-bottom: 3px;
-    letter-spacing: -1px;
+    letter-spacing: var(--text-spacing);
 }
 
 input {
     width: 200px;
     height: 20px;
+}
+
+.create-cntr {
+    padding-top: 2%;
+}
+
+.create-cntr > button {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgb(249, 85, 25);
+    box-shadow: 0 0 6px 1px rgb(34, 34, 34) inset;
+    font-weight: bold;
+    font-size: var(--fineprint);
+    letter-spacing: var(--text-spacing);
+    color: var(--baseline-color);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 40px;
 }
