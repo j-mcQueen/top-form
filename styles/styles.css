@@ -119,7 +119,7 @@ input {
 .create-cntr > button {
     -webkit-appearance: none;
     appearance: none;
-    background-color: rgb(249, 85, 25);
+    background-color: rgba(249, 85, 25, 0.8);
     box-shadow: 0 0 6px 1px rgb(34, 34, 34) inset;
     font-weight: bold;
     font-size: var(--fineprint);
@@ -128,4 +128,11 @@ input {
     border: none;
     border-radius: 5px;
     padding: 12px 40px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(249, 85, 25, 1);
+    transition: 0.3s ease;
 }
