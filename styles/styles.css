@@ -108,8 +108,13 @@ label {
 }
 
 input {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 1px rgb(122, 122, 122) inset;
     width: 200px;
-    height: 20px;
+    height: 23px;
 }
 
 .create-cntr {
