@@ -110,15 +110,16 @@ label {
 input {
     -webkit-appearance: none;
     appearance: none;
-    border: none;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid rgb(122, 122, 122);;
     border-radius: 3px;
-    box-shadow: 0 0 3px 1px rgb(122, 122, 122) inset;
     width: 200px;
     height: 23px;
 }
 
 input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
     font-size: 1.4rem;
+    color: var(--baseline-color);
     letter-spacing: var(--text-spacing);
 }
 
@@ -130,7 +131,7 @@ input:required + span::after {
     display: inline-block;
     position: absolute;
     vertical-align: middle;
-    top: -22px;
+    top: -23px;
     right: 0;
     padding: 0 5px;
     border-radius: 2px;
