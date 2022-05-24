@@ -117,6 +117,25 @@ input {
     height: 23px;
 }
 
+input + span {
+    position: relative;
+}
+
+input:required + span::after {
+    display: inline-block;
+    position: absolute;
+    vertical-align: middle;
+    top: -21px;
+    right: 0;
+    padding: 0 5px;
+    border-radius: 2px;
+    content: "required";
+    color: var(--baseline-color);
+    background-color: rgba(249, 85, 25, 0.8);
+    font-size: var(--fineprint);
+    letter-spacing: var(--text-spacing);
+}
+
 .create-cntr {
     padding-top: 2%;
 }
