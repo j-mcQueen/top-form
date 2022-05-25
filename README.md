@@ -10,3 +10,8 @@ A dummy sign-up form built as part of The Odin Project's Full Stack JavaScript c
 - the efficiency of using advanced CSS selectors (like combinators or attribute selectors)
 - the various advantages of using CSS variables (such as only editing values in one place rather than several)
 - manipulating SVG size and colour
+
+## biggest challenges
+
+- positioning generated content
+- ensuring the majority of the relevant form element attributes necessary for accessibility purposes are implemented
