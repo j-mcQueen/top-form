@@ -49,7 +49,7 @@ a:hover {
 }
 
 .image {
-    background-image: url("/media/mathias-reding-6FGyKAJwtRc-unsplash.jpg");
+    background-image: url("../media/mathias-reding-6FGyKAJwtRc-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
