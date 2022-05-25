@@ -21,3 +21,7 @@ A dummy sign-up form built as part of The Odin Project's Full Stack JavaScript c
 - HTML
 - CSS
 - [Softr's SVG Shape Generator](https://www.softr.io/tools/svg-shape-generator)
+
+## known bugs/ areas of improvement
+
+- For this project, emphasis was placed on building an accessible sign-up form and applying form styling techniques, so while the form exhibits a basic sense of responsiveness, the page is not robust in that regard.
