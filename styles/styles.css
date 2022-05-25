@@ -117,23 +117,19 @@ input {
     height: 23px;
 }
 
+input + span {
+    position: relative;
+}
+
 input:focus {
     outline: none;
     border: 1px solid rgb(74, 204, 255);
-}
-
-input[type="password"]:invalid {
-    border: 1px solid rgba(249, 85, 25, 1);
 }
 
 input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
     font-size: 1.4rem;
     color: var(--baseline-color);
     letter-spacing: var(--text-spacing);
-}
-
-input + span {
-    position: relative;
 }
 
 input:required + span::after {
