@@ -77,6 +77,12 @@ svg a:hover {
     opacity: 0.8;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .form-cntr {
     box-shadow: 0 0 6px 3px rgb(30, 30, 30) inset;
 }
