@@ -177,3 +177,14 @@ button:hover {
     background-color: rgba(249, 85, 25, 1);
     transition: 0.3s ease;
 }
+
+@media only screen and (max-width: 1080px) {
+    fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    fieldset div {
+        margin: 5px 0;
+    }
+}
