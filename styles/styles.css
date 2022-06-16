@@ -49,7 +49,7 @@ a:hover {
 }
 
 .image {
-    background-image: url("./media/mathias-reding-6FGyKAJwtRc-unsplash.jpg"); /* this path works on github pages but not locally */
+    background-image: url("../media/mathias-reding-6FGyKAJwtRc-unsplash.jpg"); /* this path works on github pages but not locally */
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
